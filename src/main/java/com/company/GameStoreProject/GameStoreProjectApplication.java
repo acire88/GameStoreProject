@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GameStoreProjectApplication {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		SpringApplication.run(GameStoreProjectApplication.class, args);
 	}
 

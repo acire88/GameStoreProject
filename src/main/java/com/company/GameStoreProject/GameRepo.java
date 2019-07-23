@@ -6,5 +6,6 @@ public interface GameRepo extends JpaRepository<Games, Integer> {
     List<Games> findByESRBRating(String ESRBRating);
     List<Games> findByStudio(String studio);
     List<Games> findByTitle(String title);
+
 }
 
